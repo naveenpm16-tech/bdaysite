@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Happy Birthday, Aneesa ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="phone" id="app">
+
+  <section class="scene active" id="welcome">
+    <div class="floating-hearts"></div>
+    <div class="garland"><i>♥</i><i>♡</i><i>♥</i><i>♡</i><i>♥</i><i>♡</i><i>♥</i></div>
+    <div class="title">Happy Birthday,<br><b>Aneesa</b></div>
+    <div class="cute-couple">
+      <div class="bear">🐻</div>
+      <div class="cake">🎂</div>
+      <div class="bunny">🐰</div>
+    </div>
+    <p class="question">Are you excited for what's next?</p>
+    <div class="choices"><button id="yes">Yes</button><button id="no">No</button></div>
+  </section>
+
+  <section class="scene" id="balloons">
+    <div class="counter">0/4 POPPED</div>
+    <h2>Pop all 4 balloons</h2>
+    <div class="balloon-grid">
+      <button class="balloon blue" data-balloon="1"><span>🎈</span><strong class="balloon-caption">Loving</strong></button>
+      <button class="balloon pink" data-balloon="2"><span>🎈</span><strong class="balloon-caption">Caring</strong></button>
+      <button class="balloon green" data-balloon="3"><span>🎈</span><strong class="balloon-caption">Hot</strong></button>
+      <button class="balloon purple" data-balloon="4"><span>🎈</span><strong class="balloon-caption">Cute</strong></button>
+    </div>
+    <div class="confetti"></div>
+  </section>
+
+  <section class="scene candle-scene" id="candle">
+    <h2>Blow the candle</h2>
+    <div class="candle-wrap">
+      <div class="flame"></div><div class="wick"></div>
+      <div class="candle-stick"></div><div class="cake-shape"><span></span></div>
+    </div>
+    <p>🎤 Blow into the mic</p>
+    <button class="big-action" id="blow">Tap / Blow to continue</button>
+  </section>
+
+  <section class="scene wish-scene" id="wish">
+    <div class="wish-overlay"></div>
+    <div class="wish-copy">Close your eyes<br><b>&amp; make a wish</b></div>
+    <div class="mini-cake"><div class="mini-flame"></div><div class="mini-candle"></div><div class="mini-cakebody"></div></div>
+  </section>
+
+  <section class="scene bouquet-scene" id="bouquet">
+    <h2>Your Rose Bouquet 🌹</h2>
+    <div class="bubble b1">Forever yours 💗</div>
+    <div class="bubble b2">You make my<br>world beautiful</div>
+    <div class="bouquet-art">
+      <div class="roses">🌹🌹🌹<br>🌹🌹🌹</div><div class="wrap">╲╱╲╱</div><div class="ribbon">🎀</div>
+    </div>
+    <div class="bubble b3">You are my<br>sunshine ☀️</div>
+    <div class="bubble b4">Happy Birthday,<br>Aneesa ❤️</div>
+  </section>
+
+  <section class="scene envelope-scene" id="envelope">
+    <h2>A Message From My Heart ❤️</h2>
+    <button class="envelope" id="openEnvelope" aria-label="Open envelope">
+      <span class="flap"></span><span class="paper"></span><span class="seal">♥</span>
+    </button>
+    <p>Tap to open</p>
+  </section>
+
+  <section class="scene letter-scene" id="letter">
+    <h2>A Message From My Heart ❤️</h2>
+    <article class="letter">
+      <button class="heart-pin">♥</button>
+      <p>Dear Aneesa,</p>
+      <div id="letterText"></div>
+      <div class="letter-sign">With love and best wishes,<br><b>NM10! ❤️</b></div>
+      <div class="tiny-couple">🐻 🐰</div>
+    </article>
+  </section>
+
+  <section class="scene gift-scene" id="gift">
+    <div class="gift-copy">One Last Thing...</div>
+    <p>Tap the gift</p>
+    <button class="gift-box" id="openGift"><span>🎁</span></button>
+      </section>
+
+  <section class="scene final-scene" id="final">
+    <div class="final-card">
+      <div class="final-characters">🐰　🐻</div>
+      <h3>Aneesa</h3>
+      <p>Lots of love for you ❤️</p>
+      <small>Once again, Happy Birthday Aneesa!</small>
+    </div>
+    <button class="next-final" id="showQR">♡</button>
+  </section>
+
+  <section class="scene qr-scene" id="qr">
+    <button class="qr-card" id="openCollage" type="button" aria-label="Open photo collage">
+      <h3>Aneesa</h3>
+      <div id="qrCode" class="qr-code" aria-label="QR code"></div>
+      <p>Tap to open</p>
+    </button>
+  </section>
+
+  <section class="scene collage-scene" id="collage">
+    <div class="photo-collage" aria-label="Photo collage">
+      <img class="photo photo-1" src="assets/photo1.jpeg" alt="Birthday memory">
+      <img class="photo photo-2" src="assets/photo2.jpeg" alt="Birthday memory">
+      <img class="photo photo-3" src="assets/photo3.jpeg" alt="Birthday memory">
+      <img class="photo photo-4" src="assets/photo4.jpeg" alt="Birthday memory">
+      <img class="photo photo-5" src="assets/photo5.jpeg" alt="Birthday memory">
+      <img class="photo photo-6" src="assets/photo6.jpeg" alt="Birthday memory">
+      <img class="photo photo-7" src="assets/photo7.jpeg" alt="Birthday memory">
+      <img class="photo photo-8" src="assets/photo8.jpeg" alt="Birthday memory">
+      <div class="collage-message">Happy Birthday</div>
+    </div>
+  </section>
+
+  <div class="progress"><span id="progressBar"></span></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
